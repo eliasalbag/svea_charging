@@ -16,6 +16,7 @@ class NodeStatus:
 
 
 class Node(ABC):
+    currentRunningNode: Node | None = None
     @abstractmethod
     def run(self) -> str: ...
 
@@ -34,6 +35,12 @@ class ActionNode(Node):
 
     def run(self) -> str:
         status = self.action()
+        #added by Elias
+        if status == NodeStatus.RUNNING:
+            self.currentRunningNode = self
+        else:
+            self.currentRunningNode = None
+
         print(f"  {self.name}: {status}")
         return status
 
@@ -71,13 +78,16 @@ class Fallback(Composite):
         for child in self.children:
             result = child.run()
 
+            if result == NodeStatus.RUNNING:
+                self._trace("=> RUNNING")
+                self.currentRunningNode = child
+                return NodeStatus.RUNNING
+            else:
+                self.currentRunningNode = None
+
             if result == NodeStatus.SUCCESS:
                 self._trace("=> SUCCESS")
                 return NodeStatus.SUCCESS
-
-            if result == NodeStatus.RUNNING:
-                self._trace("=> RUNNING")
-                return NodeStatus.RUNNING
 
             # result was FAILURE → try next child
 
@@ -93,13 +103,16 @@ class Sequence(Composite):
         for child in self.children:
             result = child.run()
 
+            if result == NodeStatus.RUNNING:
+                self._trace("=> RUNNING")
+                self.currentRunningNode = child
+                return NodeStatus.RUNNING
+            else:
+                self.currentRunningNode = None
+            
             if result == NodeStatus.FAILURE:
                 self._trace("=> FAILURE")
                 return NodeStatus.FAILURE
-
-            if result == NodeStatus.RUNNING:
-                self._trace("=> RUNNING")
-                return NodeStatus.RUNNING
 
             # result was SUCCESS → continue with next child
 
