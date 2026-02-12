@@ -19,27 +19,31 @@ class Btree:
 
         # the tree should be built according to our logic, and should use the functions defined below as leaf nodes
         self.tree = Sequence(
-            Fallback(
-                ActionNode(self.communicationOk),
-                ActionNode(self.alertCommunicationError),
-                name="communicationGuard",
+            Sequence(
+                Fallback(
+                    ActionNode(self.communicationOk),
+                    ActionNode(self.alertCommunicationError),
+                    name="communicationGuard",
+                ),
+                Fallback(
+                    ActionNode(self.atChargingArea),
+                    ActionNode(self.alertChargingAreaError),
+                    name="chargingAreaCheck",
+                ),
             ),
             Sequence(
                 Fallback(
-                    ActionNode(self.batteryLevelNotOk),
-                    ActionNode(self.GoToChargingStation),
-                    name="batteryLevelCheck",
-                ),
-                Fallback(
-                    ActionNode(self.vehicleCloseEnoughToCharger),
-                    ActionNode(self.FineAlign),
-                    name="approachCharger",
+                    ActionNode(self.inProximityArea),
+                    ActionNode(self.driveToProximityArea),
+                    name="proximityAreaCheck",
                 ),
                 Fallback(
                     ActionNode(self.vehicleDocked),
                     ActionNode(self.dockVehicle),
                     name="docking",
                 ),
+            ),
+            Sequence(
                 Fallback(
                     ActionNode(self.chargingProcessOk),
                     ActionNode(self.alertChargingError),
@@ -51,13 +55,19 @@ class Btree:
                     name="undocking",
                 ),
             ),
-            name="root",
+            name = "root"
         )
+
 
 
     def tick(self):
         self.tree.tick()
         time.sleep(self.period) #should this sleep here? idk if this is the approach. ASK KAJ and Elisa
+
+    
+    @property
+    def state(self):
+        return self.tree.currentRunningNode.name
 
 
     #condition
@@ -75,50 +85,39 @@ class Btree:
         return NodeStatus.FAILURE #How should we handle this? Should we return FAILURE here, or SUCCESS since we have alerted the user? ASK KAJ and Elisa
 
     #condition
-    def batteryLevelNotOk(self):
-        #check if the battery level is above a charging threshold
-        if self.batteryLevel < self.batteryLevelLowerThreshold:
+    def atChargingArea(self):
+        #check if vehicle is in CA (Charging Area)
+        if True: #should change this to check if we are in the charging area
             return NodeStatus.SUCCESS
         else:
+            print("Vehicle is not in the charging area.")
             return NodeStatus.FAILURE
 
     #action
-    def GoToChargingStation(self):
-        #navigate to the charging station using High Level Planner & Controller
-        try:
-            if self.chargerVisible:
-                print("Charger is now visible.")
-                return NodeStatus.SUCCESS
-            else:
-                print("Navigating to the charging station...")
-                #should add navigation code here, and set self.chargerVisible to True when we are close enough to the charger
-                return NodeStatus.RUNNING
-        except Exception as e:
-            print(f"Error while navigating to the charging station: {e}")
-            return NodeStatus.FAILURE
+    def alertChargingAreaError(self):
+        #alert the user that the vehicle is not in the charging area
+        print("ALERT: Vehicle is not in the charging area.")
+        return NodeStatus.FAILURE #How should we handle this? Should we return FAILURE here, or SUCCESS since we have alerted the user? ASK KAJ and Elisa
 
 
     #condition
-    def vehicleCloseEnoughToCharger(self):
-        #check if the vehicle is within some decided proximity of the charger
-        if self.vehicleAligned:
+    def inProximityArea(self):
+        #check if vehicle is in PA (Proximity Area)
+        if True: #should change this to check if we are in the proximity area
             return NodeStatus.SUCCESS
         else:
-            print("Vehicle is not close enough to the charger.")
+            print("Vehicle is not in the proximity area.")
             return NodeStatus.FAILURE
 
     #action
-    def FineAlign(self):
-        #navigate to be within a finer proximity using a Low Level Controller
+    def driveToProximityArea(self):
+        #some action that would drive the vehicle to the proximity area
         try:
-            if self.vehicleAligned:
-                print("Vehicle is now aligned with the charger.")
-                return NodeStatus.SUCCESS
-            print("Fine aligning with the charger...")
-            #should add fine alignment code here, and set self.vehicleAligned to True when we are close enough to the charger
+            print("Driving to the proximity area...")
+            #should add code here to drive to the proximity area
             return NodeStatus.RUNNING
         except Exception as e:
-            print(f"Error while fine aligning with the charger: {e}")
+            print(f"Error while driving to the proximity area: {e}")
             return NodeStatus.FAILURE
         
 
