@@ -1,5 +1,5 @@
 import time
-from btree import NodeStatus, Node, ActionNode, Sequence, Fallback #imported behaviour tree implementation from Elisa Bin's repo: https://github.com/elisabin/btree
+from third_party.btree import NodeStatus, Node, ActionNode, Sequence, Fallback #imported behaviour tree implementation from Elisa Bin's repo: https://github.com/elisabin/btree
 
 
 
