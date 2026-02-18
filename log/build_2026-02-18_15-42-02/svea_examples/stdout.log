@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/svea_examples/svea_examples.egg-info
+writing ../../build/svea_examples/svea_examples.egg-info/PKG-INFO
+writing dependency_links to ../../build/svea_examples/svea_examples.egg-info/dependency_links.txt
+writing requirements to ../../build/svea_examples/svea_examples.egg-info/requires.txt
+writing top-level names to ../../build/svea_examples/svea_examples.egg-info/top_level.txt
+writing manifest file '../../build/svea_examples/svea_examples.egg-info/SOURCES.txt'
+reading manifest file '../../build/svea_examples/svea_examples.egg-info/SOURCES.txt'
+writing manifest file '../../build/svea_examples/svea_examples.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_examples/build
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_examples/build/lib
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_examples/build/lib/svea_examples
+copying svea_examples/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_examples/build/lib/svea_examples
+running install
+running install_lib
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/lib/python3.12/site-packages/svea_examples
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_examples/build/lib/svea_examples/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/lib/python3.12/site-packages/svea_examples
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/lib/python3.12/site-packages/svea_examples/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/share/ament_index
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/share/ament_index/resource_index
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/share/ament_index/resource_index/packages
+copying resource/svea_examples -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/share/ament_index/resource_index/packages
+copying package.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/share/svea_examples
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/share/svea_examples/launch
+copying launch/multi.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/share/svea_examples/launch
+copying launch/floor2.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/share/svea_examples/launch
+copying launch/mpc_navigation.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/share/svea_examples/launch
+copying launch/teleop_floor2.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/share/svea_examples/launch
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/lib/svea_examples
+copying scripts/mpc_path_tracking.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/lib/svea_examples
+copying scripts/mpc.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/lib/svea_examples
+copying scripts/pure_pursuit.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/lib/svea_examples
+copying scripts/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/lib/svea_examples
+copying scripts/teleop_control.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/lib/svea_examples
+running install_egg_info
+Copying ../../build/svea_examples/svea_examples.egg-info to /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/lib/python3.12/site-packages/svea_examples-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_examples/install.log'

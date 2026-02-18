@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/svea_charging/svea_charging.egg-info
+writing ../../build/svea_charging/svea_charging.egg-info/PKG-INFO
+writing dependency_links to ../../build/svea_charging/svea_charging.egg-info/dependency_links.txt
+writing requirements to ../../build/svea_charging/svea_charging.egg-info/requires.txt
+writing top-level names to ../../build/svea_charging/svea_charging.egg-info/top_level.txt
+writing manifest file '../../build/svea_charging/svea_charging.egg-info/SOURCES.txt'
+reading manifest file '../../build/svea_charging/svea_charging.egg-info/SOURCES.txt'
+writing manifest file '../../build/svea_charging/svea_charging.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_charging/build
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_charging/build/lib
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_charging/build/lib/svea_charging
+copying svea_charging/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_charging/build/lib/svea_charging
+running install
+running install_lib
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_charging/lib/python3.12/site-packages/svea_charging
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_charging/build/lib/svea_charging/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_charging/lib/python3.12/site-packages/svea_charging
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_charging/lib/python3.12/site-packages/svea_charging/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_charging/share/ament_index
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_charging/share/ament_index/resource_index
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_charging/share/ament_index/resource_index/packages
+copying resource/svea_charging -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_charging/share/ament_index/resource_index/packages
+copying package.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_charging/share/svea_charging
+running install_egg_info
+Copying ../../build/svea_charging/svea_charging.egg-info to /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_charging/lib/python3.12/site-packages/svea_charging-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_charging/install.log'

@@ -1,0 +1,147 @@
+running egg_info
+creating ../../build/svea_core/svea_core.egg-info
+writing ../../build/svea_core/svea_core.egg-info/PKG-INFO
+writing dependency_links to ../../build/svea_core/svea_core.egg-info/dependency_links.txt
+writing requirements to ../../build/svea_core/svea_core.egg-info/requires.txt
+writing top-level names to ../../build/svea_core/svea_core.egg-info/top_level.txt
+writing manifest file '../../build/svea_core/svea_core.egg-info/SOURCES.txt'
+reading manifest file '../../build/svea_core/svea_core.egg-info/SOURCES.txt'
+writing manifest file '../../build/svea_core/svea_core.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core
+copying svea_core/rosonic.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core
+copying svea_core/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/controllers
+copying svea_core/controllers/mpc.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/controllers
+copying svea_core/controllers/pure_pursuit.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/controllers
+copying svea_core/controllers/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/controllers
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/utils
+copying svea_core/utils/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/utils
+copying svea_core/utils/markers.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/utils
+copying svea_core/utils/path.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/utils
+copying svea_core/utils/viz_util.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/utils
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/models
+copying svea_core/models/bicycle.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/models
+copying svea_core/models/platooning.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/models
+copying svea_core/models/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/models
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/interfaces
+copying svea_core/interfaces/actuation.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/interfaces
+copying svea_core/interfaces/localization.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/interfaces
+copying svea_core/interfaces/rc.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/interfaces
+copying svea_core/interfaces/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/interfaces
+copying svea_core/interfaces/planner_interface.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/interfaces
+copying svea_core/interfaces/lidar.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/interfaces
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/tests
+copying svea_core/tests/test_models.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/tests
+copying svea_core/tests/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/tests
+running install
+running install_lib
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/controllers
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/controllers/mpc.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/controllers
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/controllers/pure_pursuit.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/controllers
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/controllers/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/controllers
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/utils
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/utils/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/utils
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/utils/markers.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/utils
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/utils/path.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/utils
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/utils/viz_util.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/utils
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/rosonic.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/models
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/models/bicycle.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/models
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/models/platooning.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/models
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/models/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/models
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/interfaces
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/interfaces/actuation.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/interfaces
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/interfaces/localization.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/interfaces
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/interfaces/rc.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/interfaces
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/interfaces/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/interfaces
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/interfaces/planner_interface.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/interfaces
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/interfaces/lidar.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/interfaces
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/tests
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/tests/test_models.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/tests
+copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/build/lib/svea_core/tests/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/tests
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/controllers/mpc.py to mpc.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/controllers/pure_pursuit.py to pure_pursuit.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/controllers/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/utils/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/utils/markers.py to markers.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/utils/path.py to path.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/utils/viz_util.py to viz_util.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/rosonic.py to rosonic.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/models/bicycle.py to bicycle.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/models/platooning.py to platooning.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/models/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/interfaces/actuation.py to actuation.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/interfaces/localization.py to localization.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/interfaces/rc.py to rc.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/interfaces/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/interfaces/planner_interface.py to planner_interface.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/interfaces/lidar.py to lidar.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/tests/test_models.py to test_models.cpython-312.pyc
+byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core/tests/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/ament_index
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/ament_index/resource_index
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/ament_index/resource_index/packages
+copying resource/svea_core -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/ament_index/resource_index/packages
+copying package.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/launch
+copying launch/simulation.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/launch
+copying launch/map_and_foxglove.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/launch
+copying launch/state_publisher_launch.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/launch
+copying launch/lli_test.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/launch
+copying launch/plot_map.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/launch
+copying launch/save_map.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/launch
+copying launch/svea_launch.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/launch
+copying launch/svea_vizualization.launch.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/launch
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/params
+copying params/penn_state_lab_obstacles.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/params
+copying params/mpc_default.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/params
+copying params/mpc_default_path_tracking.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/params
+copying params/floor2_obstacles.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/params
+copying params/track.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/params
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/maps
+copying maps/sml.pgm -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/maps
+copying maps/floor2.pickle -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/maps
+copying maps/itrl.pgm -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/maps
+copying maps/penn_state_lab.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/maps
+copying maps/q1.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/maps
+copying maps/penn_state_lab.pgm -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/maps
+copying maps/q1.pgm -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/maps
+copying maps/sml.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/maps
+copying maps/floor2.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/maps
+copying maps/itrl.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/maps
+copying maps/floor2.pgm -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/maps
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/svea_core
+copying scripts/imu_bias_remover.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/svea_core
+copying scripts/lidar_timer.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/svea_core
+copying scripts/lli_test.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/svea_core
+copying scripts/sim_lidar.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/svea_core
+copying scripts/state_publisher.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/svea_core
+copying scripts/plot_map.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/svea_core
+copying scripts/model_viz.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/svea_core
+copying scripts/encoder_filter.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/svea_core
+copying scripts/sim_svea.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/svea_core
+copying scripts/save_map.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/svea_core
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/urdf
+copying urdf/svea.urdf.xacro -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/urdf
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/meshes
+copying meshes/lidar_base.stl -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/meshes
+copying meshes/tire.stl -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/meshes
+copying meshes/lidar_top.stl -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/meshes
+copying meshes/body166.stl -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/meshes
+copying meshes/body.stl -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/meshes
+copying meshes/lidar_cap.stl -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/meshes
+copying meshes/ZED_Box.stl -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/meshes
+creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/util
+copying util/start_micro_ros.sh -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/share/svea_core/util
+running install_egg_info
+Copying ../../build/svea_core/svea_core.egg-info to /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages/svea_core-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_core/install.log'

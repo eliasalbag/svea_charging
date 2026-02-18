@@ -1,0 +1,59 @@
+[1.752s] Invoking command in '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/src/svea_localization': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/svea_localization build --build-base /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/build install --record /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/install.log --single-version-externally-managed install_data
+[1.985s] running egg_info
+[1.985s] creating ../../build/svea_localization/svea_localization.egg-info
+[2.002s] writing ../../build/svea_localization/svea_localization.egg-info/PKG-INFO
+[2.002s] writing dependency_links to ../../build/svea_localization/svea_localization.egg-info/dependency_links.txt
+[2.002s] writing requirements to ../../build/svea_localization/svea_localization.egg-info/requires.txt
+[2.002s] writing top-level names to ../../build/svea_localization/svea_localization.egg-info/top_level.txt
+[2.002s] writing manifest file '../../build/svea_localization/svea_localization.egg-info/SOURCES.txt'
+[2.038s] reading manifest file '../../build/svea_localization/svea_localization.egg-info/SOURCES.txt'
+[2.040s] writing manifest file '../../build/svea_localization/svea_localization.egg-info/SOURCES.txt'
+[2.040s] running build
+[2.040s] running build_py
+[2.040s] creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/build
+[2.040s] creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/build/lib
+[2.040s] creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/build/lib/svea_localization
+[2.040s] copying svea_localization/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/build/lib/svea_localization
+[2.040s] running install
+[2.044s] running install_lib
+[2.062s] creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/python3.12/site-packages/svea_localization
+[2.062s] copying /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/build/lib/svea_localization/__init__.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/python3.12/site-packages/svea_localization
+[2.062s] byte-compiling /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/python3.12/site-packages/svea_localization/__init__.py to __init__.cpython-312.pyc
+[2.062s] running install_data
+[2.063s] creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/ament_index
+[2.063s] creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/ament_index/resource_index
+[2.063s] creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/ament_index/resource_index/packages
+[2.063s] copying resource/svea_localization -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/ament_index/resource_index/packages
+[2.063s] copying package.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization
+[2.063s] creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/launch
+[2.063s] copying launch/slam_and_bag.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/launch
+[2.063s] copying launch/slam_from_bag.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/launch
+[2.063s] copying launch/localization_debugger.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/launch
+[2.063s] copying launch/transforms.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/launch
+[2.063s] copying launch/slam.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/launch
+[2.063s] copying launch/localize.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/launch
+[2.063s] copying launch/transforms_ns.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/launch
+[2.063s] copying launch/sensors/lidar.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/launch
+[2.063s] copying launch/sensors/rtk.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/launch
+[2.063s] copying launch/sensors/controller.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/launch
+[2.064s] copying launch/sensors/navsat.xml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/launch
+[2.064s] copying launch/localization.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/launch
+[2.064s] creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/params
+[2.064s] copying params/amcl/localize.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/params
+[2.064s] copying params/slam_toolbox/localization.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/params
+[2.064s] copying params/slam_toolbox/slam_sync.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/params
+[2.064s] copying params/robot_localization/global_ekf.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/params
+[2.064s] copying params/robot_localization/local_ekf.yaml -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/share/svea_localization/params
+[2.064s] creating /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/svea_localization
+[2.064s] copying scripts/lidar_timestamp.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/svea_localization
+[2.064s] copying scripts/quat_to_euler_relay.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/svea_localization
+[2.064s] copying scripts/plot_localization.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/svea_localization
+[2.064s] copying scripts/gps_to_utm_relay.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/svea_localization
+[2.064s] copying scripts/rtk_manager.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/svea_localization
+[2.065s] copying scripts/set_datum_node.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/svea_localization
+[2.065s] copying scripts/odom_to_path_relay.py -> /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/svea_localization
+[2.065s] running install_egg_info
+[2.083s] Copying ../../build/svea_localization/svea_localization.egg-info to /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/python3.12/site-packages/svea_localization-0.0.0-py3.12.egg-info
+[2.084s] running install_scripts
+[2.199s] writing list of installed files to '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/install.log'
+[2.235s] Invoked command in '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/src/svea_localization' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/svea_localization build --build-base /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/build install --record /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/install.log --single-version-externally-managed install_data

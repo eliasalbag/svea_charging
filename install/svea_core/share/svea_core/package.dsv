@@ -1,0 +1,6 @@
+source;share/svea_core/hook/pythonpath.ps1
+source;share/svea_core/hook/pythonpath.dsv
+source;share/svea_core/hook/pythonpath.sh
+source;share/svea_core/hook/ament_prefix_path.ps1
+source;share/svea_core/hook/ament_prefix_path.dsv
+source;share/svea_core/hook/ament_prefix_path.sh
