@@ -1,0 +1,19 @@
+[1.217s] Invoking command in '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/src/svea_charging': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_charging/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_charging/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/svea_charging build --build-base /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_charging/build install --record /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_charging/install.log --single-version-externally-managed install_data
+[1.462s] running egg_info
+[1.481s] writing ../../build/svea_charging/svea_charging.egg-info/PKG-INFO
+[1.481s] writing dependency_links to ../../build/svea_charging/svea_charging.egg-info/dependency_links.txt
+[1.481s] writing requirements to ../../build/svea_charging/svea_charging.egg-info/requires.txt
+[1.481s] writing top-level names to ../../build/svea_charging/svea_charging.egg-info/top_level.txt
+[1.520s] reading manifest file '../../build/svea_charging/svea_charging.egg-info/SOURCES.txt'
+[1.521s] writing manifest file '../../build/svea_charging/svea_charging.egg-info/SOURCES.txt'
+[1.521s] running build
+[1.521s] running build_py
+[1.521s] running install
+[1.526s] running install_lib
+[1.546s] running install_data
+[1.546s] running install_egg_info
+[1.566s] removing '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_charging/lib/python3.12/site-packages/svea_charging-0.0.0-py3.12.egg-info' (and everything under it)
+[1.566s] Copying ../../build/svea_charging/svea_charging.egg-info to /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_charging/lib/python3.12/site-packages/svea_charging-0.0.0-py3.12.egg-info
+[1.567s] running install_scripts
+[1.695s] writing list of installed files to '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_charging/install.log'
+[1.732s] Invoked command in '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/src/svea_charging' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_charging/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_charging/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/svea_charging build --build-base /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_charging/build install --record /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_charging/install.log --single-version-externally-managed install_data

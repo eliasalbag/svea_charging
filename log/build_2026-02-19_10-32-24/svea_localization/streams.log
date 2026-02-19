@@ -1,0 +1,19 @@
+[1.233s] Invoking command in '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/src/svea_localization': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/svea_localization build --build-base /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/build install --record /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/install.log --single-version-externally-managed install_data
+[1.473s] running egg_info
+[1.492s] writing ../../build/svea_localization/svea_localization.egg-info/PKG-INFO
+[1.492s] writing dependency_links to ../../build/svea_localization/svea_localization.egg-info/dependency_links.txt
+[1.492s] writing requirements to ../../build/svea_localization/svea_localization.egg-info/requires.txt
+[1.492s] writing top-level names to ../../build/svea_localization/svea_localization.egg-info/top_level.txt
+[1.531s] reading manifest file '../../build/svea_localization/svea_localization.egg-info/SOURCES.txt'
+[1.532s] writing manifest file '../../build/svea_localization/svea_localization.egg-info/SOURCES.txt'
+[1.532s] running build
+[1.532s] running build_py
+[1.533s] running install
+[1.537s] running install_lib
+[1.557s] running install_data
+[1.557s] running install_egg_info
+[1.577s] removing '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/python3.12/site-packages/svea_localization-0.0.0-py3.12.egg-info' (and everything under it)
+[1.578s] Copying ../../build/svea_localization/svea_localization.egg-info to /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/python3.12/site-packages/svea_localization-0.0.0-py3.12.egg-info
+[1.579s] running install_scripts
+[1.703s] writing list of installed files to '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/install.log'
+[1.754s] Invoked command in '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/src/svea_localization' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/svea_localization build --build-base /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/build install --record /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_localization/install.log --single-version-externally-managed install_data

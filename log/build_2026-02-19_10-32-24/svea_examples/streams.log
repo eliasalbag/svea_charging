@@ -1,0 +1,19 @@
+[0.720s] Invoking command in '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/src/svea_examples': AMENT_PREFIX_PATH=/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core:/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/lib/python3.12/site-packages:/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages:/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/svea_examples build --build-base /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_examples/build install --record /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_examples/install.log --single-version-externally-managed install_data
+[0.961s] running egg_info
+[0.980s] writing ../../build/svea_examples/svea_examples.egg-info/PKG-INFO
+[0.980s] writing dependency_links to ../../build/svea_examples/svea_examples.egg-info/dependency_links.txt
+[0.981s] writing requirements to ../../build/svea_examples/svea_examples.egg-info/requires.txt
+[0.981s] writing top-level names to ../../build/svea_examples/svea_examples.egg-info/top_level.txt
+[1.019s] reading manifest file '../../build/svea_examples/svea_examples.egg-info/SOURCES.txt'
+[1.020s] writing manifest file '../../build/svea_examples/svea_examples.egg-info/SOURCES.txt'
+[1.020s] running build
+[1.020s] running build_py
+[1.020s] running install
+[1.025s] running install_lib
+[1.046s] running install_data
+[1.046s] running install_egg_info
+[1.065s] removing '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/lib/python3.12/site-packages/svea_examples-0.0.0-py3.12.egg-info' (and everything under it)
+[1.065s] Copying ../../build/svea_examples/svea_examples.egg-info to /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/lib/python3.12/site-packages/svea_examples-0.0.0-py3.12.egg-info
+[1.065s] running install_scripts
+[1.188s] writing list of installed files to '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_examples/install.log'
+[1.216s] Invoked command in '/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/src/svea_examples' returned '0': AMENT_PREFIX_PATH=/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core:/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_examples/lib/python3.12/site-packages:/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_core/lib/python3.12/site-packages:/home/eliasalbag/KTH/sveaMasterThesis/svea_charging/install/svea_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/svea_examples build --build-base /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_examples/build install --record /home/eliasalbag/KTH/sveaMasterThesis/svea_charging/build/svea_examples/install.log --single-version-externally-managed install_data
